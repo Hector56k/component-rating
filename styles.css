@@ -8,9 +8,12 @@ html {
   box-sizing: inherit;
 }
 
+/*
+  Allow percentage-based heights in the application
+*/
+html,
 body {
-  margin: 0;
-  padding: 0;
+  height: 100%;
 }
 /*end reset css*/
 
@@ -23,4 +26,27 @@ body {
   --very-dark-blue: hsl(216, 12%, 8%);
   --font-size: 15px;
   --font-famliy: "Overpass";
+}
+
+body {
+  font-family: var(--font-famliy), serif, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  width: 400px;
+  padding: 1rem;
+  border: 3px solid red;
 }
