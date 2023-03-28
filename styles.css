@@ -7,7 +7,6 @@ html {
 *:after {
   box-sizing: inherit;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -46,12 +45,11 @@ body {
   align-items: center;
   background-color: var(--very-dark-blue);
 }
-
 p {
-  color: var(--medium-grey);
+  color: var(--light-grey);
   line-height: 1.5rem;
+  word-spacing: 0.05rem;
 }
-
 ol {
   display: flex;
   gap: 1.5rem;
@@ -60,11 +58,9 @@ ol {
   font-weight: 700;
   color: var(--medium-grey);
 }
-
 button {
   text-transform: uppercase;
 }
-
 .wrapper {
   width: 450px;
   height: 450px;
@@ -73,8 +69,11 @@ button {
   color: var(--white);
   border-radius: 30px;
 }
+.hidden {
+  display: none;
+}
 
-/*Rating card styles*/
+/*Rating card */
 .icon {
   display: flex;
   justify-content: center;
@@ -101,4 +100,22 @@ button {
 }
 .rating-card > div:first-child {
   margin-bottom: 30px;
+}
+
+/*Thank You card */
+.thank-you-card {
+  text-align: center;
+}
+.thank-you-card > img {
+  margin-top: 20px;
+}
+.thank-you-card > div:first-of-type {
+  margin: 40px 0;
+}
+.thank-you-card > div:first-of-type > p {
+  display: inline;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background-color: var(--dark-blue-alt);
+  color: var(--orange);
 }
