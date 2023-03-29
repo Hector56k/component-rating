@@ -119,3 +119,17 @@ button {
   background-color: var(--dark-blue-alt);
   color: var(--orange);
 }
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 40px;
+  }
+  ol {
+    gap: 1rem;
+  }
+  .icon {
+    height: 45px;
+    width: 45px;
+  }
+}
