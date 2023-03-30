@@ -72,11 +72,6 @@ button {
 .hidden {
   display: none;
 }
-/*when a rating is selected*/
-.selected {
-  background-color: var(--orange);
-  color: var(--white);
-}
 
 /*Rating card */
 .icon {
@@ -123,6 +118,12 @@ button {
   border-radius: 20px;
   background-color: var(--dark-blue-alt);
   color: var(--orange);
+}
+
+/*when a rating is selected*/
+.selected {
+  background-color: var(--orange);
+  color: var(--white);
 }
 
 li:hover {
