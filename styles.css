@@ -72,6 +72,11 @@ button {
 .hidden {
   display: none;
 }
+/*when a rating is selected*/
+.selected {
+  background-color: var(--orange);
+  color: var(--white);
+}
 
 /*Rating card */
 .icon {
@@ -120,6 +125,17 @@ button {
   color: var(--orange);
 }
 
+li:hover {
+  background-color: var(--medium-grey);
+  color: var(--white);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--orange);
+  cursor: pointer;
+}
 @media screen and (max-width: 500px) {
   .wrapper {
     width: 100%;
