@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ayechico21/component-rating)
-- Live Site URL: [Github pages]()
+- Live Site URL: [Github pages](https://ayechico21.github.io/component-rating/)
 
 ## My process
 
