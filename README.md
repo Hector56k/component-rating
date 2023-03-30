@@ -24,6 +24,11 @@ Users should be able to:
 
 ### Screenshot
 
+![Rating Card](https://user-images.githubusercontent.com/63403684/228832145-e455a1a8-2a9c-4968-974b-b0c908741b51.png)
+![Rating Submitted](https://user-images.githubusercontent.com/63403684/228832257-ebb70197-e893-4f2c-8a42-5f3202d86774.png)
+![Hover State](https://user-images.githubusercontent.com/63403684/228832611-e796b56c-ed2b-42d4-8b73-b17629ef516d.png)
+
+
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/ayechico21/component-rating)
